@@ -1,0 +1,80 @@
+body{
+    background-color: rgb(0, 0, 0);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),  url(/farm.png);
+    margin: 30px;
+}
+h1{
+    font-weight: bold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 50px;
+    color: #1dc133;
+}
+h3{
+    font-weight: 500;
+    font-size: 30px;
+    color: #269233;
+    margin-bottom: 0;
+}
+.get{
+    font-size: 30px;
+    color: #789b7c;
+}
+li{
+    list-style: none;
+    margin: 5px;
+}
+section{
+    display: flex;
+}
+.one{
+    width: 50%;
+    margin: 10px;
+    color: #fff;
+}
+label{
+    display: block;
+    margin: 5px;
+}
+input{
+    width: 50%;
+    height: 30px;
+    display: block;
+}
+select{
+    width: 51%;
+    height: 30px;
+}
+#submit{
+    /* margin: 10px; */
+    width: 51%;
+    height: 40px;
+    margin-top: 10px;
+    color: #bac6bc;
+    background-color: #193c1d;
+    border: none;
+}
+form{
+    color: #bcbdb6;
+    /* background-color: #292727; */
+    padding: 10px;
+}
+
+footer{
+    color: #ffffff;
+    background-color: #193c1d;
+    margin: 5px;
+    padding: 10px;
+    text-align: center;
+}
+.about{
+    font-size: 20px;
+}
+img{
+    width: 100px;
+    height: 110px;
+    border-radius: 50%;
+}
+#foot{
+    display: flex;
+    justify-content: center;
+}

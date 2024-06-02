@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Farm Fresh</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <main>
+        <section>
+            <div class="one">
+                <h1>Farm Fresh</h1>
+                <p class="get">Get fresh farm produce at your finger tips</p>
+                <ul>
+                    <li>Worry less about how to get fresh food without stepping out</li>
+                    <li>Order for farm fresh foods</li>
+                    <li>Get it delivered to your doorstep</li>
+                </ul>  
+            </div>
+            <div class="one">
+                <h3>Get Started</h3>
+                <!-- The form -->
+                <form>
+                    <label for="Fname">First name</label>
+                    <input type="text" id="Fname" name="Fname" placeholder="Enter your First name here" required/>
+                    <label for="Lname">Last Name</label>
+                    <input type="text" id="Lname" name="Lname" placeholder="Enter your last name here" required/>
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" required/>
+                    <label for="Phone">Phone Number</label>
+                    <input type="number" id="Phone" name="phone" placeholder="Enter phone number" required/>
+                    <label for="password">Password</label>
+                    <input type="password" id="password" required/>
+                    <label for="referral">How did you hear abut us?</label>
+                    <select>
+                        <option value="0">Select one...</option>
+                        <option value="1">Twitter</option>
+                        <option value="2">Facebook</option>
+                        <option value="3">WhatsApp</option>
+                    </select>
+                    <input type="submit" id="submit" value="Register">
+                    
+                </form>
+            </div>
+            <!-- end of form -->
+        </section>
+    </main>
+    <footer>
+        <div class="about">About Me</div>
+        <div id="foot">
+            <img src="/headshot.png" alt="Maryam"/>
+            <p>Alhassan Mariam is a Frontend development trainee at Africa Agility</p>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
